@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import { useState } from 'react';
 import Chat from './chat';
 
-const socket = io.connect("socket-io-project-be-production.up.railway.app");
+const socket = io.connect("https://socket-io-project-be-production.up.railway.app");
 
 function App() {
 
