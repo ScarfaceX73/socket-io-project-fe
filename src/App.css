@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.chat-body {
+  border-width: 1px;
+}
+
 .chat-body .message-container {
   width: 100%;
   height: 100%;
