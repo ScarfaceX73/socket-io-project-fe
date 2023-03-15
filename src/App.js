@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import { useState } from 'react';
 import Chat from './chat';
 
-const socket = io.connect("http://localhost:4000");
+const socket = io.connect("socket-io-project-be-production.up.railway.app");
 
 function App() {
 
